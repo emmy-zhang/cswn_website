@@ -1,1 +1,1 @@
-# cswn_website
+# Computer Science Women's Network (CSWN) Website

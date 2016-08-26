@@ -1,0 +1,20 @@
+.events-heading {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+.events-heading h1{
+  padding:0 30px 0 30px;
+}
+.events-content{
+  position: relative;
+  width: 70%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 15% 20px 15%;
+}
+.events-calendar {
+  width: 100%;
+}

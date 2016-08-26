@@ -1,0 +1,80 @@
+.logo {
+  width: 100px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-color: #fff;
+  top: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  z-index: 1000;
+}
+.header ul {
+  list-style-type: none;
+}
+.header a {
+  text-decoration: none;
+}
+.header ul {
+  display: flex;
+}
+.header ul li {
+  font-family: Quicksand-Bold;
+  font-size: 20px;
+  padding: 10px 15px 10px 15px;
+}
+.header ul a {
+  color: #0A7DA0;
+}
+.header ul a:hover {
+  color: #7f7f7f;
+}
+/* *****HAMBURGER MENU***** */
+.menuIcon {
+  display: inline-block;
+  cursor: pointer;
+  padding-left: 20px;
+}
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  border-radius: 20px;
+  background-color: #0A7CA0;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
+/* ^^^^^HAMBURGER MENU^^^^^ */
+@media screen and (min-width: 988px) {
+  .menuIcon {
+    display: none;
+  }
+}
+@media screen and (max-width: 988px) {
+  .header ul {
+    display: none;
+  }
+}
+.menuHide {
+  display:none;
+}
+.menuShow {
+  display: block;
+}

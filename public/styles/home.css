@@ -1,0 +1,8 @@
+.home-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 10% 0 10%;
+}
