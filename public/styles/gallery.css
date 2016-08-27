@@ -1,6 +1,6 @@
 .gallery-heading {
   display: flex;
-  flex-flow: row;
+  justify-content: center;
   align-items: center;
 }
 .gallery-heading h1{

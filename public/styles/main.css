@@ -12,7 +12,7 @@
 }
 html, body {
   font-family: Avenir-Roman;
-  height: 100%;
+  
   padding: 0;
   margin: 0;
 }
@@ -35,24 +35,4 @@ p{
   font-size: 17px;
   font-family: Avenir-Roman;
   line-height: 25px;
-}
-
-.button {
-  font-family: Quicksand-Bold;
-  font-size: 25px;
-  padding: 15px 32px;
-  border: 2px solid #0A7DA0;
-  border-radius: 5px;
-  border-style: solid;
-  color: #0A7DA0;
-  background-color: white;
-  text-align: center;
-  text-decoration: none;
-  -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-}
-
-.button:hover {
-    background-color: #0A7DA0;
-    color: white;
 }

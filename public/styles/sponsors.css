@@ -1,6 +1,6 @@
 .sponsors-heading {
   display: flex;
-  flex-flow: row;
+  justify-content: center;
   align-items: center;
 }
 .sponsors-heading h1{
@@ -9,19 +9,22 @@
 .sponsors-content{
   position: relative;
   width: 70%;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: inline-block;;
+  text-align: center;
   margin: 0 15% 20px 15%;
 }
 .sponsors-h3 {
   font-family: Quicksand-Regular;
   color: #797979;
 }
+.sponsors-imgs {
+    margin-top: 20px;
+}
 .sponsors-imgs img{
   width: 180px;
-  margin: 2px 5px 22px 5px;
+  margin: 20px;
+  padding: 0;
+  vertical-align: middle;
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
 }
@@ -42,4 +45,18 @@
 .sponsors-imgs img:hover {
   visibility: visible;
   opacity: 0.5;
+}
+
+#boeing {
+  width: 400px;
+}
+
+#qualcomm, #capital_one, #salesforce, #bloomberg, #nielsen {
+  width: 300px;
+}
+@media screen and (max-width: 480px) {
+    .sponsors-imgs img {
+        max-width: 100%;
+        height: auto;
+    }
 }

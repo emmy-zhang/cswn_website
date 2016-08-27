@@ -1,6 +1,6 @@
 .resources-heading {
   display: flex;
-  flex-flow: row;
+  justify-content: center;
   align-items: center;
 }
 .resources-heading h1{
