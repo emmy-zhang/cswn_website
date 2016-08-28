@@ -24,10 +24,16 @@
     transition-duration: 0.4s;
 }
 
+button a {
+  text-decoration: none;
+}
+
 .button:hover {
     background-color: #0A7DA0;
     color: white;
+    cursor: pointer;
 }
+
 
 .upcoming-events {
   font-family: Quicksand-Regular;
