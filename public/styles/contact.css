@@ -127,4 +127,5 @@ textarea:focus {
 #saveForm:hover {
   background-color: #0A7DA0;
   color: white;
+  cursor: pointer;
 }

@@ -19,7 +19,7 @@
   font-family: Quicksand-Regular;
   color: #797979;
 }
-.members-imgs{
+.members-img {
   display: inline-block;
   text-align: center;
   margin-top: 20px;
@@ -29,12 +29,19 @@
   border-radius: 180px;
   border: 5px solid;
   border-color: #13A0C0;
-  margin: 2px 2px 22px 2px;
+  margin: 10px 5px 0 5px;
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
 }
-
 .members-imgs img:hover {
   visibility: visible;
   opacity: 0.5;
+  cursor: pointer;
+}
+.img-block {
+  display: inline-block;
+  text-align: center;
+}
+.img-block a {
+  text-decoration: none;
 }

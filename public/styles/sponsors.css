@@ -45,6 +45,7 @@
 .sponsors-imgs img:hover {
   visibility: visible;
   opacity: 0.5;
+  cursor: pointer;
 }
 
 #boeing {
