@@ -1,0 +1,20 @@
+.global-footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  background-color: #fff;
+  text-align: center;
+}
+.global-footer p {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.global-footer a {
+  text-decoration: none;
+  color: #13A0C0;
+}

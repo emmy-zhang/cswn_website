@@ -14,38 +14,23 @@
   justify-content: center;
   align-items: center;
   margin: 0 15% 20px 15%;
+  height: 100%;
 }
-.gallery-h3 {
-  font-family: Quicksand-Regular;
-  color: #797979;
-}
-.gallery-imgs {
-  padding: 20px;
-}
-.gallery-imgs img{
+.gallery-content img{
   width: 180px;
   border-radius: 180px;
   border: 5px solid;
   border-color: #13A0C0;
-  margin: 2px 2px 22px 2px;
+  margin: 10px 5px 0 5px;
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
 }
-
-.imgDescription {
-  position: absolute;
-   top: 0;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   background: rgba(29, 106, 154, 0.72);
-   color: #fff;
-   visibility: hidden;
-   opacity: 0;
-   -webkit-transition: visibility opacity 0.2s;
-}
-
-.gallery-imgs img:hover {
+.gallery-content img:hover {
   visibility: visible;
   opacity: 0.5;
+  cursor: pointer;
+}
+.galleryModalImg {
+  width: 50%;
+  border: none;
 }

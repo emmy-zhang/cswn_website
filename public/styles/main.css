@@ -12,9 +12,11 @@
 }
 html, body {
   font-family: Avenir-Roman;
-
   padding: 0;
   margin: 0;
+}
+html {
+  height: 100%;
 }
 .content {
   position: relative;

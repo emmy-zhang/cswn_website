@@ -45,7 +45,7 @@
   align-items: center;
   flex-flow: row;
 }
-.modal-container img {
+.modal-container .profileImg {
   width: 180px;
   border-radius: 180px;
   border: 5px solid;
@@ -60,6 +60,9 @@
 }
 .modal-container p {
   margin: 0 30px 0 30px;
+}
+.modal-footer {
+  margin: 20px;
 }
 .modal-footer a {
   text-decoration: none;

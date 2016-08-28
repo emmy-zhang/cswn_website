@@ -5,10 +5,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 15% 0 15%;
+  margin: 0 15% 75px 15%;
+}
+.summary {
+  padding: 20px 30px;
 }
 .upcoming-events {
   text-align: center;
+  padding: 20px 0;
 }
 .button {
   font-family: Quicksand-Bold;
@@ -25,23 +29,18 @@
   -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
-
 button a {
   text-decoration: none;
 }
-
 .button:hover {
     background-color: #0A7DA0;
     color: white;
     cursor: pointer;
 }
-
-
 .upcoming-events {
   font-family: Quicksand-Regular;
   color: #13A0C0;
 }
-
 .upcoming-events h2, p {
   display: flex;
   justify-content: center;
