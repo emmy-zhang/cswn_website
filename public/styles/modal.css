@@ -11,6 +11,7 @@
   -moz-transition: opacity 400ms ease-in;
   transition: opacity 400ms ease-in;
   pointer-events: none;
+  overflow: scroll;
 }
 
 /* Modal Content/Box */
@@ -20,6 +21,7 @@
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
+
 }
 .modal-header{
   font-family: Quicksand-Bold;
