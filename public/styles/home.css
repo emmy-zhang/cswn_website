@@ -7,7 +7,9 @@
   align-items: center;
   margin: 0 15% 0 15%;
 }
-
+.upcoming-events {
+  text-align: center;
+}
 .button {
   font-family: Quicksand-Bold;
   font-size: 25px;

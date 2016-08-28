@@ -9,10 +9,8 @@
 .members-content{
   position: relative;
   width: 70%;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: inline-block;;
+  text-align: center;
   margin: 0 15% 20px 15%;
 }
 .members-h3 {
