@@ -19,3 +19,8 @@
   text-decoration: none;
   color: rgba(19, 160, 192, 0.5);
 }
+
+.global-footer a:hover {
+  text-decoration: underline;;
+  color: rgba(19, 160, 192, 1);
+}
