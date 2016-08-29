@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Computer Science Women's Network</title>
+    <link rel="icon" href="/static/images/cswn_logo_icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="/static/styles/main.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/styles/navbar.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/styles/home.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/styles/members.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/styles/events.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/styles/gallery.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/styles/sponsors.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/styles/resources.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/styles/contact.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/styles/modal.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/styles/footer.css" rel="stylesheet" type="text/css"/>
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Custom JS -->
+    <script src="/static/js/main.js"></script>
+  </head>
+
+  <body>
+      <div class="header">
+        <a href="/"><img class="logo" alt="cswn logo" src="/static/images/cswn_logo.png"></a>
+        <div class="menuIcon" onclick="navDisplay(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+
+        <ul id="myTopnav" class="topnav">
+          <li><a href="/members">MEMBERS</a></li>
+          <li><a href="/events">EVENTS</a></li>
+          <li><a href="/gallery">GALLERY</a></li>
+          <li><a href="/sponsors">SPONSORS</a></li>
+          <li><a href="/resources">RESOURCES</a></li>
+          <li><a href="/contact">CONTACT US</a></li>
+        </ul>
+      </div>
+
+    <div class="content">
+      {{{body}}}
+    </div>
+
+    <footer class="global-footer">
+      <p>&copy Purdue CSWN</p>
+      <p><a target="email" href="mailto:cswnpurdue@gmail.com">cswnpurdue@gmail.com </a> &nbsp|&nbsp
+      <a target="boilerlink" href="https://boilerlink.purdue.edu/organization/computersciencewomensnetwork">Join CSWN</a></p>
+      <p>Designed & Developed by Emmy Zhang</p>
+    </footer>
+  </body>
+</html>

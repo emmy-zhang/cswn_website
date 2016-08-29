@@ -12,9 +12,10 @@
   margin: 0;
   font-size: 12px;
   line-height: 17px;
+  color: rgba(121, 121, 121, 0.5);
 }
 
 .global-footer a {
   text-decoration: none;
-  color: #13A0C0;
+  color: rgba(19, 160, 192, 0.5);
 }

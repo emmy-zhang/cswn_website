@@ -32,6 +32,10 @@ html {
 }
 h1{
   color: #13A0C0;
+  letter-spacing: -2px;
+}
+h2, h3, .topnav {
+  letter-spacing: -1px;
 }
 p{
   color: #797979;
