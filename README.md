@@ -3,7 +3,7 @@ Website for Purdue CSWN, an organization that provides networking opportunities 
 Purdue University.
 
 ## Installation
-1. copy repository
+1. clone repository
 2. `git clone git@github.com:emmy917917/cswn_website.git`
 3. `npm install`
 4. `npm start`
