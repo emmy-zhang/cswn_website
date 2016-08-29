@@ -17,6 +17,13 @@ Purdue University.
 * Atom
 * Hosted via Heroku
 
+## Issues
+* Navigation menu does not expand on resize
+
+### Features to Implement
+* Form submission
+* 
+
 ### Author(s)
 
 * **Emmy Zhang** - [Github](https://github.com/emmy917917)
