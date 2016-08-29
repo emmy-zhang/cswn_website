@@ -9,7 +9,7 @@ Purdue University.
 4. `npm start`
 5. go to localhost:3100 in browser
 
-### Built With
+## Built With
 * NodeJs
 * Express
 * Handlebars
@@ -17,6 +17,6 @@ Purdue University.
 * Atom
 * Hosted via Heroku
 
-## Authors
+### Authors
 
 * **Emmy Zhang** - [Github](https://github.com/emmy917917)
