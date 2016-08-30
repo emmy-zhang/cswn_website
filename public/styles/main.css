@@ -18,6 +18,21 @@ html, body {
 html {
   height: 100%;
 }
+.background-img{
+  content : "";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("/static/images/officers/group1.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  opacity : 0.2;
+  z-index: -1;
+}
 .content {
   position: relative;
   display: flex;
@@ -29,6 +44,7 @@ html {
 .content h1 {
   font-family: Quicksand-Bold;
   text-align: center;
+  margin-top: 50px;
 }
 h1{
   color: #13A0C0;
