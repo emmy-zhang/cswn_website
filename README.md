@@ -26,6 +26,8 @@ Purdue University.
 * Turn gallery into group of pictures to expand on click
 * add loading screen
 * Resource page needs additional styling, add description and re-align
+* shorten about page summary, style it with three photos and descriptions
+* interchange photos on home page
 
 ### Author(s)
 
