@@ -22,7 +22,10 @@ Purdue University.
 
 ### Features to Implement
 * Form submission
-* 
+* Make single page, scrollable
+* Turn gallery into group of pictures to expand on click
+* add loading screen
+* Resource page needs additional styling, add description and re-align
 
 ### Author(s)
 
