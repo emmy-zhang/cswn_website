@@ -1,12 +1,918 @@
+<!doctype html>
 <html>
-<head>
-  <script>
-    window.location = "http://cswn.herokuapp.com/";
-  </script>
-</head>
-<body>
-This is the home page.
-</body>
+  <head>
+    <title>Computer Science Women's Network</title>
+    <link rel="icon" href="images/cswn_logo_icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles/main.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/navbar.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/about.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/members.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/modal.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/events.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/gallery.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/sponsors.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/resources.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/contact.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/footer.css" rel="stylesheet" type="text/css"/>
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
 
 
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#home" class="logo"><img class="navImg" src="images/cswn_logo.png"></a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <ul class="menu">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#members">MEMBERS</a></li>
+        <li><a href="#events">EVENTS</a></li>
+        <li><a href="#gallery">GALLERY</a></li>
+        <li><a href="#sponsors">SPONSORS</a></li>
+        <li><a href="#resources">RESOURCES</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </header>
+
+    <!-- ************* HEADER *************** -->
+    <div id="home" class="content">
+      <img class="homeLogo" src="images/cswn_logo.png">
+      <h1>Computer Science Women's Network</h1>
+    </div>
+
+    <!-- ************* ABOUT *************** -->
+    <div id="about" class="content">
+      <h1>About</h1>
+      <p class="summary">
+        Student led organization at Purdue University dedicated to helping women in the Computer Science
+        (CS) field.
+      </p>
+      <div class="aboutButtons">
+        <a class="button" target="boilerlink"
+        href="https://boilerlink.purdue.edu/organization/computersciencewomensnetwork">Join CSWN
+      </a>
+      <a class="button" target="constitution"
+      href="https://drive.google.com/open?id=1v2xrGy1pU75GwhD6jdjBHtRYDFM2hj9mfBqw-sCUXq0">
+      Our Constitution
+    </a>
+  </div>
+
+      <div class="about-content">
+        <div class="about-imgs">
+          <div class="img-block">
+            <a href="#yogaModal">
+              <img alt="yoga_pic" src="images/events/yoga_social/yoga2.jpg">
+              <p>CSWN plans Socials to help students relax and engage with others</p>
+            </a>
+          </div>
+          <div class="img-block">
+            <a href="#puzzleModal">
+              <img alt="puzzle_pic" src="images/events/puzzle_day/img_3884.jpg">
+              <p>We host campus wide events like Puzzle Day</p>
+            </a>
+          </div>
+          <div class="img-block">
+            <a href="#womenInTechModal">
+              <img alt="womenInTech_pic" src="images/events/womenInTech/womenInTech3.jpg">
+              <p>Tech panels and profesional networking opportunites are made available for all members</p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- ************* MEMBERS *************** -->
+    <div id="members" class="content">
+        <h1>Members</h1>
+
+      <div class="members-content">
+        <h2>2016 - 2017 Officers</h2>
+        <div class="members-imgs">
+          <div class="img-block">
+            <a href="#juliannaModal">
+              <img alt="julianna stevenson" src="images/officers/julianna_stevenson.jpg">
+              <h3>President</h3>
+              <p>Julianna Stevenson</p>
+            </a>
+          </div>
+          <div class="img-block">
+            <a href="#jordanModal">
+              <img alt="noah_field" src="images/officers/noah_field.jpg">
+              <h3>Vice President</h3>
+              <p>Noah (Jordan) Field</p>
+            </a>
+          </div>
+          <div class="img-block">
+            <a href="#audreyModal">
+              <img alt="audrey_vincent" src="images/officers/audrey_vincent.jpg">
+              <h3>Treasurer</h3>
+              <p>Audrey Vincent</p>
+            </a>
+          </div>
+          <div class="img-block">
+            <a href="#lisaModal">
+              <img alt="lisa_campbell" src="images/officers/lisa_campbell.jpg">
+              <h3>Secretary</h3>
+              <p>Lisa Campbell</p>
+            </a>
+          </div>
+          <div class="img-block">
+            <a href="#emmyModal">
+              <img alt="emmy_zhang" src="images/officers/emmy_zhang.jpg">
+              <h3>Webmaster</h3>
+              <p>Emmy Zhang</p>
+            </a>
+          </div>
+          <div class="img-block">
+            <a href="#eehitaModal">
+              <img alt="eehita_parameswaran" src="images/officers/eehita_parameswaran.jpg">
+              <h3>Corporate Liaison</h3>
+              <p>Eehita Parameswaran</p>
+            </a>
+          </div>
+          <div class="img-block">
+            <a href="#akankshaModal">
+              <img alt="akanksha_tripathy" src="images/officers/akanksha_tripathy.jpg">
+              <h3>Event Coordinator</h3>
+              <p>Akanksha Tripathy</p>
+            </a>
+          </div>
+          <div class="img-block">
+            <a href="#kristenModal">
+              <img alt="kristen_hlava" src="images/officers/kristen_hlava.jpg">
+              <h3>Recruitment</h3>
+              <p>Kristen Hlava</p>
+            </a>
+          </div>
+          <div class="img-block">
+            <a href="#cl2Modal">
+              <img alt="corporate liason 2" src="images/cswn_logo.png">
+              <h3>Corporate Liaison #2</h3>
+              <p>(Vacancy)</p>
+            </a>
+          </div>
+        </div>
+
+        <h2 class="members-h3">Faculty</h2>
+        <div class="members-imgs">
+          <div class="img-block">
+            <a href="#barbaraModal">
+              <img id="barbaraBtn" alt"barbara_clark" src="images/people/barbara_clark.jpg">
+              <h3>Founding Member</h3>
+              <p>Barbara Clark</p>
+            </a>
+          </div>
+
+          <div class="img-block">
+            <a href="#soniaModal">
+              <img alt="sonia_fahmy" src="images/people/sonia_fahmy.jpg">
+              <h3>Faculty Advisor</h3>
+              <p>Sonia Fahmy</p>
+            </a>
+          </div>
+        </div>
+
+        <h2 class="members-h3">Alumni</h2>
+        <div class="members-imgs">
+          <div class="img-block">
+            <a href="#bridgetteModal">
+              <img alt"bridgette_kuehn" src="images/alumni/bridgette_kuehn.jpg">
+              <p>Bridgette Kuehn</p>
+            </a>
+          </div>
+          <div class="img-block">
+            <a href="#andreaModal">
+              <img alt="andrea_evensen" src="images/alumni/andrea_evensen.png">
+              <p>Andrea Evensen</p>
+            </a>
+          </div>
+          <div class="img-block">
+            <a href="#valerieModal">
+              <img alt="valerie_fenwick" src="images/alumni/valerie_fenwick.jpg">
+              <p>Valerie Fenwick</p>
+            </a>
+          </div>
+          <div class="img-block">
+            <a href="#erikaModal">
+              <img alt="erika_poole" src="images/alumni/erika_poole.png">
+              <p>Erika Poole</p>
+            </a>
+          </div>
+          <div class="img-block">
+            <a href="#janiceModal">
+              <img alt="janice_zdankus" src="images/alumni/janice_zdankus.jpg">
+              <p>Janice Zdankus</p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ********** 2016-2015 OFFICERS MODALS ********** -->
+      <div id="juliannaModal" class="modalDialog">
+        <div>
+          <header class="modal-header">
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Julianna Stevenson</h2>
+            <p>President</p>
+          </header>
+          <div class="modal-container">
+            <img class="profileImg" alt"julianna_stevenson" src="images/officers/julianna_stevenson.jpg">
+            <div class="modal-info">
+              <p>Year: 2019, Sophomore</p>
+              <p>Major: Computer Science</p>
+              <p>Minors: Psychology, French</p>
+              <br/>
+              <p>
+                She has been programming for nine years, ever since
+                she joined her elementary school's FIRST Lego League team. Disconcerted by the lack of
+                females in her CS classes, she does her best to encourage her peers to explore their
+                interests and find their passions.
+              </p>
+            </div>
+          </div>
+          <footer class="modal-footer">
+            <p>Email:&nbsp <a href="mailto:steve146@purdue.edu"> steve146@purdue.edu</a></p>
+          </footer>
+        </div>
+      </div>
+
+      <div id="jordanModal" class="modalDialog">
+        <div>
+          <header class="modal-header">
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Noah (Jordan) Field</h2>
+            <p>Vice President</p>
+          </header>
+          <div class="modal-container">
+            <img class="profileImg" alt"noah_field" src="images/officers/noah_field.jpg">
+            <div class="modal-info">
+              <p>Year: 2018, Junior</p>
+              <p>Major: Computer Science</p>
+              <p>Minor: Classical Studies</p>
+              <br/>
+              <p>
+                She's at Purdue studying Computer Science, and is also involved in Purdue Music Gaming Club and Purdue ACM SIG App.
+              </p>
+            </div>
+          </div>
+          <footer class="modal-footer">
+            <p>Email:&nbsp <a href="mailto:fieldn@purdue.edu">fieldn@purdue.edu</a></p>
+          </footer>
+        </div>
+      </div>
+
+      <div id="audreyModal" class="modalDialog">
+        <div>
+          <header class="modal-header">
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Audrey Vincent</h2>
+            <p>Treasurer</p>
+          </header>
+          <div class="modal-container">
+            <img class="profileImg" alt="audrey_vincent" src="images/officers/audrey_vincent.jpg">
+            <div class="modal-info">
+              <p>Year: 2019, Sophomore</p>
+              <p>Major: Computer Science</p>
+              <p>Minor: </p>
+              <br/>
+              <p>
+                [Summary]
+              </p>
+            </div>
+          </div>
+          <footer class="modal-footer">
+            <p>Email:&nbsp <a href="mailto:vincent6@purdue.edu">vincent6@purdue.edu</a></p>
+          </footer>
+        </div>
+      </div>
+
+
+      <div id="lisaModal" class="modalDialog">
+        <div>
+          <header class="modal-header">
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Lisa Campbell</h2>
+            <p>Secretary</p>
+          </header>
+          <div class="modal-container">
+            <img class="profileImg" alt="lisa_campbell" src="images/officers/lisa_campbell.jpg">
+            <div class="modal-info">
+              <p>Year: 2018, Junior</p>
+              <p>Major: Computer Science</p>
+              <p>Minors: Psychology, Entrepreneurship</p>
+              <br/>
+              <p>
+                Before coming to Purdue, she worked at a start up company out of her hometown of Carmel,
+                IN, managing their website. She loves puppies and making jokes too.
+              </p>
+            </div>
+          </div>
+          <footer class="modal-footer">
+            <p>Email:&nbsp <a href="mailto:campb215@purdue.edu">campb215@purdue.edu</a></p>
+          </footer>
+        </div>
+      </div>
+
+      <div id="emmyModal" class="modalDialog">
+        <div>
+          <header class="modal-header">
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Emmy Zhang</h2>
+            <p>Webmaster</p>
+          </header>
+          <div class="modal-container">
+            <img class="profileImg" alt="emmy_zhang" src="images/officers/emmy_zhang.jpg">
+            <div class="modal-info">
+              <p>Year: 2019, Sophomore</p>
+              <p>Major: Computer Science</p>
+              <p>Minors: Art and Design, Chinese</p>
+              <br/>
+              <p>
+                Emmy is passionate about front-end development, art, and supporting women
+                in technology. Emmy is on the design team for Boilermake, Purdue's Hackathon Organization;
+                she is a member of Undergraduate Student Board (USB), a student led organization that
+                provides tools, resources, opportunites to CS students; and she is a mentor for MAGIC, an
+                organization that strives to inspire young girls to learn and pursue technology. She
+                likes watching films, solving Rubik's Cubes, and playing the ukulele.
+              </p>
+            </div>
+          </div>
+          <footer class="modal-footer">
+            <p>Email:&nbsp <a href="mailto:zhan2235@purdue.edu">zhan2235@purdue.edu</a></p>
+          </footer>
+        </div>
+      </div>
+
+      <div id="eehitaModal" class="modalDialog">
+        <div>
+          <header class="modal-header">
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Eehita Parameswaran</h2>
+            <p>Corporate Liaison</p>
+          </header>
+          <div class="modal-container">
+            <img class="profileImg" alt="eehita_parameswarane" src="images/officers/eehita_parameswaran.jpg">
+            <div class="modal-info">
+              <p>Year: 2018, Junior</p>
+              <p>Major: Computer Science</p>
+              <p>Minors: </p>
+              <br/>
+              <p>
+                The basic premise of Computer Science that advocates 'making things simple' resonates
+                immensely with Eehita, and she gets easily enthused by anything that has an association
+                with the field of Computer Science. She loves math and believes her passion for
+                problem-solving has helped develop her interest in coding. She is particularly interested
+                in Artificial Intelligence and would like to dabble with projects relating to the same.
+              </p>
+            </div>
+          </div>
+          <footer class="modal-footer">
+            <p>Email:&nbsp <a href="mailto:eparames@purdue.edu">eparames@purdue.edu</a></p>
+          </footer>
+        </div>
+      </div>
+
+      <div id="akankshaModal" class="modalDialog">
+        <div>
+          <header class="modal-header">
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Akanksha Tripathy</h2>
+            <p>Event Coordinator</p>
+          </header>
+          <div class="modal-container">
+            <img class="profileImg" alt="akanksha_tripathy" src="images/officers/akanksha_tripathy.jpg">
+            <div class="modal-info">
+              <p>Year: 2018, Junior</p>
+              <p>Major: Computer Science</p>
+              <p>Minors: Economics</p>
+              <br/>
+              <p>
+                She moved to Indiana from Bangalore, India to pursue a degree CS because it is her dream.
+              </p>
+            </div>
+          </div>
+          <footer class="modal-footer">
+            <p>Email:&nbsp <a href="mailto:tripath1@purdue.edu">tripath1@purdue.edu</a></p>
+          </footer>
+        </div>
+      </div>
+
+      <div id="kristenModal" class="modalDialog">
+        <div>
+          <header class="modal-header">
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Kristen Hlava</h2>
+            <p>Recruitment</p>
+          </header>
+          <div class="modal-container">
+            <img class="profileImg" alt="kristen_hlava" src="images/officers/kristen_hlava.jpg">
+            <div class="modal-info">
+              <p>Year: 2018, Junior</p>
+              <p>Major: Computer Science</p>
+              <p>Minor: Biology</p>
+              <br/>
+              <p>
+                Kristen is a junior who in addition to computer science, is incredibly passionate about
+                the biomedical sciences and hopes to work in the field of healthcare or biotechnology.
+                She spent the last summer working at GE Healthcare and can't wait to see where else
+                healthcare tech can take her. Kristen will be spending the Spring 2017 semester at
+                University College Dublin.
+              </p>
+            </div>
+          </div>
+          <footer class="modal-footer">
+            <p>Email:&nbsp <a href="mailto:khlava@purdue.edu.edu">khlava@purdue.edu</a></p>
+          </footer>
+        </div>
+      </div>
+
+      <div id="cl2Modal" class="modalDialog">
+        <div>
+          <header class="modal-header">
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>This position is open for applicants!</h2>
+            <p>Corporate Liaison #2</p>
+          </header>
+          <div class="modal-container">
+            <img class="profileImg" alt="corporate liason 2" src="images/cswn_logo.png">
+            <div class="modal-info">
+              <p>Year: Any year</p>
+              <p>Major: Computer Science</p>
+              <br/>
+              <p>
+                If you're interested in becoming a CSWN officer, consider applying for this position.
+                The duties of the Corporate Liaison involve emailing companies or prospective parties
+                on behalf of CSWN in a timely manner. She also assists with CSWN company and event
+                sponsorships.
+              </p>
+            </div>
+          </div>
+          <footer class="modal-footer">
+            <p>Apply Here:&nbsp <a target="application" href="https://drive.google.com/open?id=1szAdv8v2V0on1M7SLdI1cTy4JHihlmyOg_Uptj6LgL8">Application Form</a></p>
+          </footer>
+        </div>
+      </div>
+
+      <!-- ********** FACULTY MODALS ********** -->
+      <div id="barbaraModal" class="modalDialog">
+        <div>
+          <header class="modal-header">
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Barbara Clark</h2>
+            <p>Founding Member</p>
+          </header>
+          <div class="modal-container">
+            <img class="profileImg" id="barbaraBtn" alt"barbara_clark" src="images/people/barbara_clark.jpg">
+            <p>
+              The woman who started it all, Barbara Clark founded the CSWN we know today. By doing so,
+              she has brought hundreds of women together under the bond of computer science.
+              Barb dedicated her time at Purdue making sure that CSWN was alive and thriving, and
+              she remained the Faculty Advisor for CSWN until she retired in 2014.
+            </p>
+          </div>
+          <footer class="modal-footer">
+            <p></p>
+          </footer>
+        </div>
+      </div>
+
+      <div id="soniaModal" class="modalDialog">
+        <div>
+          <header class="modal-header">
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Sonia Fahmy</h2>
+            <p>Faculty Advisor</p>
+          </header>
+          <div class="modal-container">
+            <img class="profileImg" alt"sonia_fahmy" src="images/people/sonia_fahmy.jpg">
+            <p>
+              Sonia Fahmy is the faculty advisor for CSWN. Sonia started off her role as Faculty
+              Advisor with Barbara Clark in fall 2013 and took over as the sole advisor in October
+              of 2015 once Barb retired. Sonia is a professor in the CS department at Purdue
+              University.
+            </p>
+          </div>
+          <footer class="modal-footer">
+            <p>Email:&nbsp <a href="mailto:fahmy@purdue.edu">fahmy@purdue.edu</a></p>
+          </footer>
+        </div>
+      </div>
+
+      <!-- ********** FACULTY MODALS ********** -->
+      <div id="bridgetteModal" class="modalDialog">
+        <div>
+          <header class="modal-header">
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Bridgette Kuehn</h2>
+            <p>Alumnus</p>
+          </header>
+          <div class="modal-container">
+            <img class="profileImg" alt"bridgette_kuehn" src="images/alumni/bridgette_kuehn.jpg">
+            <div class="modal-info">
+              <p>
+                Bridgette graduated from Purdue in May 2016 and is currently working as
+                a Program Manager at Microsoft.
+              </p>
+            </div>
+          </div>
+          <footer class="modal-footer">
+            <p></p>
+          </footer>
+        </div>
+      </div>
+
+      <div id="andreaModal" class="modalDialog">
+        <div>
+          <header class="modal-header">
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Andrea Evensen</h2>
+            <p>Alumnus</p>
+          </header>
+          <div class="modal-container">
+            <img class="profileImg" alt="andrea_evensen" src="images/alumni/andrea_evensen.png">
+            <p>
+              Andrea Lynn Evensen (née Carollo) (B.S. Comp. Sci. 2001) graduated from Purdue with
+              Distinction after having received numerous scholarships and being, inter alia, the Vice
+              President of Mortar Board and a member of Phi Beta Kappa. After graduation, she attended
+              the John Marshall Law School (J.D. 2004) and was, inter alia, a published member of Law
+              Review, a twice published Co-Editor-in-Chief of the Morrissey Scholars, and an Associate
+              Justice for Moot Court. She graduated magna cum laude. Ms. Evensen is an associate with
+              Brinks Hofer Gilson & Lione, one of the largest intellectual property law firms in the U.S.,
+              and is a registered patent attorney. She was named a 2009 Rising Star by Illinois Super
+              Lawyers. Her intellectual property law practice focuses on litigation disputes, including
+              those involving trade secrets, patents, software-related matters, and contracts. With
+              a background in computer science, her prosecution docket focuses not only on patent
+              prosecution in the computer arts, but also comprises patent prosecution and
+              opinion writing in the mechanical arts, medical arts, and business methods.
+              Her practice also includes copyright and trademark issues. Ms. Evensen is married to
+              Michael Evensen (B.S. M.E.T. 2001), and together they have a wonderful son named Gregory
+              and a dog named Cinder Scrumps. They reside in Elgin, Illinois.
+            </p>
+          </div>
+          <footer class="modal-footer">
+            <p></p>
+          </footer>
+        </div>
+      </div>
+
+      <div id="valerieModal" class="modalDialog">
+        <div>
+          <header class="modal-header">
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Valerie Fenwick</h2>
+            <p>Alumnus</p>
+          </header>
+          <div class="modal-container">
+            <img class="profileImg" alt="valerie_fenwick" src="images/alumni/valerie_fenwick.jpg">
+            <p>
+              Valerie Anne Fenwick (née Bubb) is a Staff Engineer at Sun Microsystems with over a decade
+              of experience in computer security. Valerie is currently working on getting the Solaris
+              Cryptographic Framework, of which she was a designer and major contributor, certified by
+              US Government standards (FIPS-140). She is the lead for the Open Solaris Change Request
+              Team, responsible for making decisions as to what code changes are incorporated into the
+              Operating System and Networking consolidation, and one of the sponsors for the Open Solaris
+              project. She is a leader in redefining the software bugtracking strategy and processes
+              used across Sun today. Previously Valerie was the technical lead for the release of Solaris
+              10 1/06 and was responsible for the NAT implementation as well as other network security
+              features of the SunScreen firewall. Valerie has a B.S. in Computer Science from Purdue
+              University. In her spare time, she enjoys performing at community theaters, riding
+              her bike, and skiing.
+            </p>
+          </div>
+          <footer class="modal-footer">
+            <p></p>
+          </footer>
+        </div>
+      </div>
+
+      <div id="erikaModal" class="modalDialog">
+        <div>
+          <header class="modal-header">
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Erika Poole</h2>
+            <p>Alumnus</p>
+          </header>
+          <div class="modal-container">
+            <img class="profileImg" alt="erika_poole" src="images/alumni/erika_poole.png">
+            <p>
+            Erika Shehan Poole is a PhD candidate in human-centered computing at Georgia Tech. Her
+            research focuses on how groups collaborate to use, maintain, and make sense of computing
+            technologies; areas of study have included home technology maintenance practices, public
+            understandings of emerging technologies, workplace adoption of collaboration software,
+            and collaborative gaming technologies for improving health and wellness. Erika holds a BS
+            degree in computer science from Purdue University and an MS in computer science from Georgia
+            Tech. She is a member of IEEE, ACM, SIGCHI, and the ACM US Public Policy Committee. She has
+            been awarded a Georgia Tech Presidential Fellowship, an NSF Graduate Research Fellowship, a
+            US Department of Homeland Security Fellowship, and the Google Anita Borg Memorial Scholarship.
+            In 2006-2007, she was a pre-doctoral fellow in the Sam Nunn International Security Program.
+            In her spare time, Erika is a group fitness instructor and personal trainer at the Georgia
+            Tech Campus Recreation Center, and an active member of Toastmasters International.
+            </p>
+          </div>
+          <footer class="modal-footer">
+            <p></p>
+          </footer>
+        </div>
+      </div>
+
+      <div id="janiceModal" class="modalDialog">
+        <div>
+          <header class="modal-header">
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Janice Zdankus</h2>
+            <p>Alumnus</p>
+          </header>
+          <div class="modal-container">
+            <img class="profileImg" alt="janice_zdankus" src="images/alumni/janice_zdankus.jpg">
+            <p>
+              Janice Zdankus is Vice President of Infrastructure Software and Blades Services in the
+              Enterprise Business Group and Technology Services division at Hewlett-Packard. She is
+              responsible for profitable revenue growth and customer satisfaction of worldwide software
+              support services, a high-growth segment of the HP Services portfolio. She is also
+              responsible for customer experience and quality for the company's Enterprise Infrastructure
+              Software and Blades products. Previously, Zdankus led Worldwide Warranty Planning and
+              Strategy as a Senior Director for the Enterprise Storage and Server Group at HP. Prior to
+              that, she was Senior Research and Development Director leading the diagnostics and system
+              event management engineering laboratory for Business Critical Servers Division. Since first
+              joining HP in 1985 as a software design engineer, Zdankus has held several other senior
+              leadership positions in marketing, customer support and business planning. Zdankus earned
+              Bachelor degrees in Computer Science and Industrial Management from Purdue University.
+              She also holds a Masters of Business Administration degree from Santa Clara University in
+              California.
+            </p>
+          </div>
+          <footer class="modal-footer">
+            <p></p>
+          </footer>
+      </div>
+      </div>
+    </div>
+  <!-- ************* EVENTS *************** -->
+  <div id="events" class="content">
+    <h1>Events</h1>
+    <!-- <div class="events-calendar">
+      <iframe src="https://calendar.google.com/calendar/embed?src=cswnpurdue%40gmail.com&ctz=America/New_York"
+      style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </div> -->
+  </div>
+
+  <!-- ************* GALLERY *************** -->
+  <div id="gallery" class="content">
+    <h1>Gallery</h1>
+
+    <div class="gallery-content">
+      <div class="gallery-imgs">
+        <div class="img-block">
+          <a href="#puzzleModal">
+            <img alt="puzzle_pic" src="images/events/puzzle_day/img_3884.jpg">
+            <p>Puzzle Day</p>
+          </a>
+        </div>
+        <div class="img-block">
+          <a href="#yogaModal">
+            <img alt="yoga_pic" src="images/events/yoga_social/yoga2.jpg">
+            <p>Yoga Social</p>
+          </a>
+        </div>
+        <div class="img-block">
+          <a href="#womenInTechModal">
+            <img alt="womenInTech_pic" src="images/events/womenInTech/womenInTech3.jpg">
+            <p>Women in Tech Panel</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ********** MODALS ********** -->
+    <div id="puzzleModal" class="modalDialog">
+      <div>
+        <header class="modal-header">
+          <a href="#close" title="Close" class="close">X</a>
+          <h2>Puzzle Day</h2>
+          <p>April 2, 2016</p>
+        </header>
+        <div class="modal-container">
+          <img class="galleryModalImg" alt"puzzle_day_pic" src="images/events/puzzle_day/img_3848.jpg">
+        </div>
+        <footer class="modal-footer">
+          <p>Puzzle Day is an all day event, hosted and planned by the CSWN officers. Participants spend
+          the day solving fun, challenging puzzles. Winners get cool prizes like Xbox, 3D Doodler, and
+          Rubik's Cubes. Everyone got pizza and free t-shirts!
+         </p>
+        </footer>
+      </div>
+    </div>
+
+    <div id="yogaModal" class="modalDialog">
+      <div>
+        <header class="modal-header">
+          <a href="#close" title="Close" class="close">X</a>
+          <h2>Yoga Social</h2>
+          <p></p>
+        </header>
+        <div class="modal-container">
+          <img class="galleryModalImg" alt"puzzle_day_pic" src="images/events/yoga_social/yoga1.jpg">
+        </div>
+        <footer class="modal-footer">
+          <p>
+            CSWN members took a break from studying and did some relaxing yoga with friends.
+         </p>
+        </footer>
+      </div>
+    </div>
+
+    <div id="womenInTechModal" class="modalDialog">
+      <div>
+        <header class="modal-header">
+          <a href="#close" title="Close" class="close">X</a>
+          <h2>Women In Tech Panel</h2>
+          <p></p>
+        </header>
+        <div class="modal-container">
+          <img class="galleryModalImg" alt"puzzle_day_pic" src="images/events/womenInTech/womenInTech1.jpg">
+        </div>
+        <footer class="modal-footer">
+          <p>
+            A panel of proffessionals from various tech companies came and talked about women in technology.
+            Panelists shared their experiences working at tech companies, and gave advice
+            for leveling the playing field.
+         </p>
+        </footer>
+      </div>
+    </div>
+  </div>
+
+  <!-- ************* SPONSORS *************** -->
+  <div id="sponsors" class="content">
+    <h1>Sponsors</h1>
+    <div class="sponsors-content">
+      <h3>Thank you to our sponsors and partners:</h3>
+      <div class="sponsors-imgs">
+        <a target="boeing" href="http://www.boeing.com"><img id="boeing" alt="boeing" src="images/sponsors/boeing.png">
+      </div>
+      <div class="sponsors-imgs">
+        <a target="qualcomm" href="http://www.qualcomm.com"><img id="qualcomm" alt="qualcomm" src="images/sponsors/qualcomm.jpg"></a>
+        <a target="capital_one" href="https://www.capitalone.com/"><img id="capital_one" alt="capital_one" src="images/sponsors/capitalone.png"></a>
+        <a target="salesforce" href="https://www.salesforce.com/"><img id="salesforce" alt="salesforce" src="images/sponsors/salesforce.png"></a>
+        <a target="bloomberg" href="http://www.bloomberg.com/"><img id="bloomberg" alt="bloomberg" src="images/sponsors/bloomberg.png"></a>
+        <a target="nielsen" href="http://www.nielsen.com/us/en.html"><img id="nielsen" alt="nielsen" src="images/sponsors/nielsen.png"></a>
+      </div>
+      <div class="sponsors-imgs">
+        <a target="caterpillar" href="http://www.cat.com/en_US.html"><img alt="caterpillar" src="images/sponsors/caterpillar.jpg"></a>
+        <a target="eli_lilly" href="http://www.lilly.com"><img alt="eli_lilly" src="images/sponsors/elililly.png"></a>
+        <a target="factset" href="http://www.factset.com"><img alt="factset" src="images/sponsors/factset.png"></a>
+        <a target="harris" href="http://www.harris.com"><img alt="harris" src="images/sponsors/harris.png"></a>
+        <a target="hp" href="http://www.hp.com/country/us/en/uc/welcome.html"><img alt="hewlett_packard" src="images/sponsors/hewlettpackard.png"></a>
+        <a target="lockheed_martin" href="http://www.lockheedmartin.com"><img alt="lockheed_martin" src="images/sponsors/lockheedmartin.jpg"></a>
+        <a target="microsoft" href="http://www.microsoft.com"><img alt="microsoft" src="images/sponsors/microsoft.png"></a>
+        <a target="motorola" href="http://www.motorola.com"><img alt="motorola" src="images/sponsors/motorola.gif"></a>
+        <a target="pg" href="http://www.pg.com"><img alt="procter_gamble" src="images/sponsors/proctergamble.jpg"></a>
+        <a target="statefarm" href="http://www.statefarm.com"><img alt="statefarm" src="images/sponsors/statefarm.png"></a>
+        <a target="yahoo" href="http://www.yahoo.com"><img alt="yahoo" src="images/sponsors/yahoo.png"></a>
+      </div>
+      <h2>Support</h2>
+      <p>If you are a computer-science related company and would like to sponsor CSWN, please contact us at <a href="mailto:cswn@cs.purdue.edu">cswn@cs.purdue.edu</a>.</p>
+    </div>
+
+    <!-- ************* RESOURCES *************** -->
+    <div id="resources" class="content">
+      <h1>Resources</h1>
+      <div class="resources-content">
+        <div class="resources-imgs">
+          <h3>Other Student Organizations</h3>
+
+          <a target="usb" href="https://www.purdueusb.com/"><img alt="usb" src="images/resources/usblogo.jpg">
+          <h4>Undergraduate Student Board</h4></a>
+          <p>The USB is a group made up of a maximum of twelve undergraduates in the Department of
+             Computer Science who are determined to make Purdue a better place to study and obtain a
+             degree.</p>
+
+          <a target="purdue_hackers" href="http://purduehackers.com/"><img alt="purdue_hackers" src="images/resources/purduehackerslogo.png">
+          <h4>Purdue Hackers</h4></a>
+          <p>Purdue Hackers is a community of students devoted to the idea that Purdue needs to
+             embrace the kind of "hacker culture" that's found in places like Silicon Valley,
+             Seattle, and Austin. Their mission is to bring that culture here by hosting events where
+             hackers can meet and learn from one another.</p>
+
+          <a target="acm" href="http://acm.cs.purdue.edu/"><img alt="acmlogo" src="images/resources/acmlogo.jpg">
+          <h4>Association for Computing Machinery</h4></a>
+          <p>ACM at Purdue is an organization for connecting students, faculty and companies for the
+             betterment of the computing community. As a representative of one the world's most
+             influential computing organizations, they provide academic resources, forums for the
+             spreading of ideas, and communities for technological discovery and growth.</p>
+        </div>
+
+        <div class="resources-imgs">
+          <h3>Women's Interest Groups</h3>
+          <a target="wisp" href="http://www.science.purdue.edu/wisp"><img alt="wisp" src="images/resources/wisp-logo.png">
+          <h4>Women in Science Programs (WISP) at Purdue</h4></a>
+          <p>WISP is composed of four components: Residential Program,
+          Tutoring Program, Undergraduate Mentoring Program, Graduate Mentoring Program.
+          These four components work together to form a continuous environment that fosters
+          success for students in the College of Science at Purdue University from freshman
+          year through Ph.D.</p>
+
+          <a target="abi_systers" href="http://anitaborg.org/get-involved/systers/"><img alt="abi_systers" src="images/resources/abi_systers_logo_cropped_175x78_pixels.jpg"></a>
+          <h4>Systers</h4></a>
+          <p>Systers is a forum for all women involved in the technical aspects of computing.
+          The community has over 6,000 members from at least 60 countries around the world.</p>
+
+          <a target="anita_borg" href="http://anitaborg.org/"><img alt="anita_borg" src="images/resources/anitaborg.jpg">
+            <h4>Anita Borg Institute for Women and Technology</h4></a>
+            <p>A global institute that supports women in technology through many different
+            venues such as the Systers organization and the Grace Hopper Conference.</p>
+
+          <a target="grace_hopper" href="http://gracehopper.org/"><img alt="gracehopper" src="images/resources/gracehopper.png">
+            <h4>Grace Hopper Celebration of Women in Computing</h4></a>
+            <p>The Grace Hopper Celebration of Women in Computing is the World's Largest Gathering of
+            Women Technologists. It is produced by the Anita Borg Institute and presented in partnership
+            with ACM.</p>
+        </div>
+
+        <div class="resources-imgs">
+          <h3>Purdue & CS References</h3>
+          <a target="cco" href="http://www.cco.purdue.edu/"><img src="images/resources/purduecco.png" alt="cco" />
+            <h4>Center for Career Opportunities (CCO)</h4></a>
+            <p>Purdue's resource for interviews, resume reviews, and help with your job search during school and after graduation.</p>
+
+          <a target="scholarships" href="http://www.cs.purdue.edu/undergraduate/scholarships/"><img src="images/resources/purdue-cs-logo.gif" alt="scholarships"/>
+            <h4>CS Scholarships</h4></a>
+            <p>Location to learn about and apply for scholarships for Purdue Computer Science students.</p>
+
+          <a target="opportunities" href="http://www.cs.purdue.edu/corporate/opportunity-update/index.html"><img src="images/resources/purdue-cs-logo.gif" alt="oportunities"/>
+            <h4>Opportunity Update</h4></a>
+            <p>Has information for all the current events happening for the Purdue CS Department, such
+            as job openings, club meetings and callouts, and company recruitment days.</p>
+
+        </div>
+
+
+      </div>
+    </div>
+    <!-- ************* CONTACT *************** -->
+    <div id="contact" class="content">
+      <h1>Contact</h1>
+      <div class="contact-content">
+        <div class="contact-images">
+          <a target="facebook" href="https://www.facebook.com/purduecswn/"><img src="images/social_media/facebook.svg" alt="facebook"></a>
+          <a target="mail" href="mailto:cswnpurdue@gmail.com"><img src="images/social_media/gmail.svg" alt="gmail"></a>
+          <a target="linkedin" href="#"><img src="images/social_media/linkedin.svg" alt="linkedin"></a>
+          <a target="twitter" href="https://twitter.com/PurdueCSWN"><img src="images/social_media/twitter.svg" alt="twitter"></a>
+        </div>
+
+
+        <!-- <form class="form-basic" action="#">
+
+            <div class="form-row">
+                <label>
+                    <span>FULL NAME</span>
+                    <input type="text" name="name" placeholder="Grace Hopper">
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>EMAIL</span>
+                    <input type="email" name="email" placeholder="grace@hopper.com">
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>MESSAGE</span>
+                    <textarea name="textarea" placeholder="I coined the term &quot;debugging!&quot; You&rsquo;re welcome"></textarea>
+                </label>
+            </div>
+
+            <div class="form-row">
+                <button type="submit">SUBMIT</button>
+            </div>
+
+        </form> -->
+
+      </div>
+
+    </div>
+
+    <!-- ************ FOOTER ************ -->
+    <div class="footer">
+      <p>
+        <a target="email" href="mailto:cswnpurdue@gmail.com">Email Us</a>
+        &nbsp|&nbsp
+        <a target="boilerlink" href="https://boilerlink.purdue.edu/organization/computersciencewomensnetwork">Join CSWN</a>
+        &nbsp|&nbsp
+        <a target="github_issues" href="https://github.com/emmy917917/cswn_website/issues">Log an Issue</a>
+      </p>
+      <p class="footerInfo">&copy Purdue CSWN &nbsp|&nbsp Made with &hearts; by Emmy Zhang</p>
+    </div>
+  </body>
 </html>

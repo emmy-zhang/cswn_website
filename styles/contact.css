@@ -1,0 +1,150 @@
+.contact-content{
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 10% 75px 10%;
+}
+.contact-images {
+  display: inline-block;
+  text-align: center;
+}
+.contact-images img{
+  width: 100px;
+  margin: 50px;
+  padding: 0;
+  margin: 10px;
+  -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+.contact-images img:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+
+.form-basic{
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 55px;
+    text-align: center;
+}
+
+.form-basic .form-row{
+    text-align: left;
+    margin-bottom: 22px;
+}
+
+.form-basic .form-title-row{
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.form-basic h1{
+    display: inline-block;
+    box-sizing: border-box;
+    color:  #4c565e;
+    font-size: 24px;
+    padding: 0 10px 15px;
+    border-bottom: 2px solid #6caee0;
+    margin: 0;
+}
+
+.form-basic .form-row > label span{
+    display: inline-block;
+    box-sizing: border-box;
+    color: #8a8a8a;
+    width: 180px;
+    text-align: right;
+    vertical-align: top;
+    padding: 12px 25px;
+}
+
+.form-basic input{
+    color:  #8a8a8a;
+    font-size: 15px;
+    box-sizing: border-box;
+    width: 300px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px;
+    border: 1px solid #8a8a8a;
+}
+
+.form-basic select{
+    background-color: #ffffff;
+    font-size: 15px;
+    color:  #8a8a8a;
+    box-sizing: border-box;
+    max-width: 300px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px 8px;
+    border: 1px solid #dbdbdb;
+}
+
+.form-basic textarea{
+    color:  #8a8a8a;
+    font-size: 15px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 180px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px;
+    border: 1px solid #8a8a8a;
+    resize: vertical;
+}
+
+.form-basic button{
+    font-family: GT-Walsheim-Thin;
+    font-size: 20px;
+    display: block;
+    border: 1px solid #8a8a8a;
+    border-radius: 2px;
+    background-color: #fff;
+    color: #8a8a8a;
+    padding: 10px 20px;
+    margin: 40px 183px 0;
+}
+
+.form-basic button:hover{
+    color: #fff;
+    background-color: #8a8a8a;
+}
+
+
+/*	Making the form responsive. Remove this media query
+    if you don't need the form to work on mobile devices. */
+
+@media (max-width: 600px) {
+
+    .form-basic{
+        padding: 30px;
+        max-width: 480px;
+    }
+
+    .form-basic .form-row{
+        max-width: 300px;
+        margin: 25px auto;
+        text-align: left;
+    }
+
+    .form-basic .form-title-row{
+        margin-bottom: 50px;
+    }
+
+    .form-basic .form-row > label span{
+        display: block;
+        text-align: left;
+        padding: 0 0 15px;
+    }
+
+    .form-basic select{
+        width: 240px;
+    }
+
+    .form-basic button{
+        margin: 0;
+    }
+
+}

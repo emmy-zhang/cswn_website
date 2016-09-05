@@ -1,0 +1,44 @@
+.about-content{
+  position: relative;
+  width: 70%;
+  display: inline-block;;
+  text-align: center;
+  margin: 0 15% 75px 15%;
+}
+
+.about-content .img-block{
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+.about-content .img-block img{
+  width: 180px;
+  border-radius: 100px;
+  border: 5px solid;
+  border-color: #13A0C0;
+  margin: 10px 5px 0 5px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.about-imgs img:hover {
+  visibility: visible;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.about-content .img-block p{
+  width: 180px;
+  font-size: 17px;
+  align-items: center;
+}
+
+.aboutButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row;
+}
+
+.aboutButtons a.button {
+  margin: 10px;
+}

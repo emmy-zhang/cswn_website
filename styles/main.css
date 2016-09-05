@@ -1,0 +1,79 @@
+@font-face {
+  font-family: Quicksand-Regular;
+  src: url(./fonts/Quicksand-Regular.ttf);
+}
+@font-face {
+  font-family: Quicksand-Bold;
+  src: url(./fonts/Quicksand-Bold.ttf);
+}
+@font-face {
+  font-family: Avenir-Roman;
+  src: url(./fonts/Avenir-Roman.otf);
+}
+@font-face {
+  font-family: GT-Walsheim;
+  src: url(./fonts/GT-Walsheim-Pro-Regular.ttf);
+}
+@font-face {
+  font-family: GT-Walsheim-Thin;
+  src: url(./fonts/GT-Walsheim-Pro-Thin.ttf);
+}
+html{
+  height: auto;
+}
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0;
+  background-color: #fff;
+  background: #f4f4f4 url(images/officers/group2.jpg) no-repeat cover;
+  font-family: GT-Walsheim-Thin;
+  font-size: 20px;
+  color: #808080 ;
+}
+h1{
+  font-family: GT-Walsheim;
+  font-size: 45px;
+  color: #8a8a8a;
+}
+.content{
+  position: relative;
+  width: 80%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 75px 0 0 0;
+  margin: 0 10% 75px 10%;
+}
+#home {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding-top: 0;
+    text-align: center;
+    background-image: url(../images/officers/group1.png);
+    background-size: cover;
+}
+
+#home h1 {
+  color: #fff;
+}
+#home .homeLogo {
+  width: 300px;
+}
+.button {
+  padding: 15px;
+  border: 2px #8a8a8a solid;
+  border-radius: 2px;
+}
+
+.button:hover {
+  color:#fff;
+  background-color: #8a8a8a;
+  -webkit-transition: background-color 0.5s, color 1s, -webkit-transform 1s;
+    transition: background-color 0.5s, color 1s, transform 1s;
+}
