@@ -9,25 +9,12 @@ Purdue University.
 4. `npm start`
 5. go to `localhost:3100` in browser
 
-## Built With
-* NodeJs
-* Express
-* Handlebars
-* HTML/CSS/Javascript
-* Atom
-* Hosted via Heroku
-
 ## Issues
 * Navigation menu does not expand on resize
 
 ### Features to Implement
-* Form submission
-* Make single page, scrollable
-* Turn gallery into group of pictures to expand on click
-* add loading screen
-* Resource page needs additional styling, add description and re-align
-* shorten about page summary, style it with three photos and descriptions
-* interchange photos on home page
+* Exit modal onclick outside of modal
+* Carousel feature for members
 
 ### Author(s)
 
