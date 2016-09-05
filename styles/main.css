@@ -29,7 +29,6 @@ html, body {
 body {
   margin: 0;
   background-color: #fff;
-  background: #f4f4f4 url(images/officers/group2.jpg) no-repeat cover;
   font-family: GT-Walsheim-Thin;
   font-size: 20px;
   color: #808080 ;
@@ -55,7 +54,7 @@ h1{
     margin: 0;
     padding-top: 0;
     text-align: center;
-    background-image: url(../images/officers/group1.png);
+    background-image: url(../images/events/puzzle_day/img_group_blur.png);
     background-size: cover;
 }
 

@@ -1,1 +1,27 @@
+.allEvents {
+  display: flex;
+  justify-content:flex-start;
+  align-items: flex-start;
+  flex-flow: column;
+}
+.eventsInfo {
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  flex-flow: row;
+}
 
+.eventsTime {
+  flex-flow: column;
+  margin: 0 40px 0 0;
+}
+
+.eventsDes{
+  padding: 0;
+  flex-flow: column;
+  margin: 0 0 0 20px;
+}
+
+.eventsDes h2 {
+  color: #13a0c0;
+}
