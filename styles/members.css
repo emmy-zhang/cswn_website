@@ -21,21 +21,22 @@
   display: inline-block;
   text-align: center;
   margin-top: 40px;
+  cursor: default;
 }
 .members-imgs img{
   width: 200px;
-  border-radius: 100px;
+  border-radius: 150px;
   border: 5px solid;
   border-color: #13A0C0;
   margin: 10px 5px 0 5px;
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+  /*-webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;*/
 }
-.members-imgs img:hover {
+/*.members-imgs img:hover {
   visibility: visible;
   opacity: 0.5;
   cursor: pointer;
-}
+}*/
 .img-block {
   display: inline-block;
   padding: 10px;

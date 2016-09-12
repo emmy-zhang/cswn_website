@@ -33,11 +33,6 @@
   width: 500px;
   border: none;
 }
-.gallery-imgs img:hover {
-  visibility: visible;
-  opacity: 0.5;
-  cursor: pointer;
-}
 .img-block {
   display: inline-block;
   text-align: center;
