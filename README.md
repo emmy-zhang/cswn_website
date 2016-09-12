@@ -7,11 +7,11 @@ Purdue University.
 2. `git clone git@github.com:emmy917917/cswn_website.git`
 
 ## Issues
-* Navigation menu does not expand on resize
+* Center elements on resize for mobile
 
 ### Features to Implement
 * Exit modal onclick outside of modal
-* Carousel feature for members
+* Carousel and modal features for members
 
 ### Author(s)
 
